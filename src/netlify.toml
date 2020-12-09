@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "Profile"
+  to = "/Profile"
+ 
+  conditions = {Language = ["en"], Country = ["US"]]}
+
+  [[redirects]]
+  from = "Profile"
+  to = "/Details"
+ 
+  conditions = {Language = ["en"], Country = ["US"]]}
+
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/User"
+  to = "https://indapi.kumba.io/webdev/assignment"
+ 
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+ 
