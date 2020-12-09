@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+.profile{
+  background-color: rgb(249, 244, 244);
+  color: rgb(19, 22, 33);
+ border-width: 3rem;
+ 
+ height: 95vh;
+ 
+}
+.navbar{
+  color:rgb(249, 244, 244);
+
+}
+
+.header{
+ 
+  justify-content: space-evenly;
+}
+.name{
+  background: #f5f3f3;
+  height: 10vh;
+  border: thin solid #c3c1c1;
+  border-radius: 0.3rem ;
+  margin-top: 4rem;
+  word-wrap: normal;
+  
+}
+.customerprofile{
+  background: #f5f3f3;
+  height: 10vh;
+  border: thin solid #e4dede;
+  border-radius: 0.3rem ;
+  margin-top: 4rem;
+  
+}
+.header2 a{
+  color: rgb(19, 22, 33);
+}
+.header2{
+  margin-top: 0rem;
+  justify-content: space-evenly;
+  
+}
+.customerprofile2{
+  background: #f5f3f3;
+  height: 50vh;
+  border: thin solid #727272;
+  border-radius: 0.3rem ;
+  
+  justify-content: space-evenly;
+}
+.name2{
+  background: #f5f3f3;
+  height: 30vh;
+  border: thin solid #727272;
+  border-radius: 0.3rem ;
+  
+}
+
+.customerprofile3{
+  float: right;
+  background: #f5f3f3;
+  height: 40vh;
+  border: thin solid #727272;
+  border-radius: 0.3rem ;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.customerprofile4{
+  float: left;
+  background: #f5f3f3;
+  height: 40vh;
+  border: thin solid #727272;
+  border-radius: 0.3rem ;
+  margin-top: 1rem;
+  text-align: justify;
+  word-wrap: normal;
+  
+}
+.customerprofile3 img{
+  width: 8vw;
+  height: 20vh;
+}
+button  {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  background: rgb(21, 145, 77);
+  border: 0rem;
+  
+  
+}
+.details{
+  background-color:rgb(249, 244, 244);
+
+  height: 35rem;
+ margin: 0rem;
+
+ line-height: 2rem;
+ padding: 3rem;
+ color: rgb(19, 22, 33);
+ 
+}
+
+@media only screen and (max-width:500px){
+  .name{
+    display: none;
+   
+  }
+  .customerprofile3{
+    float: right;
+    background: #f5f3f3;
+    height: 50vh;
+    border: thin solid #727272;
+    border-radius: 0.3rem ;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .customerprofile3 img{
+    width: 30vw;
+    height: 30vh;
+  }
+  .customerprofile2{
+    background: #f5f3f3;
+    height: 100vh;
+    border: thin solid #727272;
+    border-radius: 0.3rem ;
+    
+    justify-content: space-evenly;
+  }
+  
+  .details{
+    background-color:rgb(249, 244, 244);
+    
+    height: 45rem;
+   margin: 0rem;
+  
+   line-height: 2rem;
+   padding: 3rem;
+   color: rgb(19, 22, 33);
+   
+  }
+  .description{
+    display: none;
+  }
+ 
+}
